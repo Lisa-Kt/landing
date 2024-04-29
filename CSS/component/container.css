@@ -1,0 +1,38 @@
+.container {
+  margin: 80px auto;
+}
+
+@media (min-width: 960px) {
+  .container {
+    width: 900px; /* Adjust as needed */
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 90%; /* Adjust as needed */
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 80%; /* Adjust as needed */
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 90%; /* Adjust as needed */
+  }
+}
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin-bottom: 10px; /* Add space between paragraphs */
+}
